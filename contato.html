@@ -1,0 +1,84 @@
+<!DOCTYPE html> 
+<html lang="pt-BR"> 
+
+	<head> <meta charset="UTF-8"> 	
+		<title>Code - Contato</title> 
+		<link rel="stylesheet" type="text/css" href="css/folhadeestilo.css"> 
+	
+	</head> 
+	
+	<body class='color-page'> 
+			
+		<div class="container-principal" id="topo"> 
+		
+			<!--Cabeçalho - Topo-->
+			<header> 
+				<!--Logo-->
+				<div class="logo" >
+					<a href="index.html"><img src="img/logo.png" alt="logo site"></a>
+				</div> 
+				<!--Menu-->
+				<nav> 
+					<ul> 
+						<li><a href="index.html">home</a></li> 
+						<li><a href="clientes.html">clientes</a></li> 
+						<li><a href="sobre.html">sobre</a></li> 
+						<li><a href="#topo">contato</a></li> 
+					</ul> 
+				</nav> 
+			</header> 
+		
+			<!--Imagem do Titulo-->
+			<div class='img-titulo'>
+				<img src="img/contato.png" alt="imagem de contato">
+			</div> 
+		
+			<!--Informações do Contato-->
+			<section id="txt-contato">
+			    <!--Formulario para o cliente se comunicar com a empresa via o site-->
+				<form name="meu_form" id="meu_form">				
+					
+					<p class="nome">
+						<label for="nome">Nome:</label><br>
+					</p> 
+					<input type="text" id="nomeid" placeholder="Ex: Fulano da Silva" required="required" name="fone">
+					
+					<p class="fone">
+						<label for="fone">Fone:</label><br>
+					</p> 
+					<input type="phone" id="foneid" placeholder="(xx)xxxx-xxxx" required="required" name="nome">
+					
+					<p>
+						<label for="email">Email:</label><br>
+					</p>
+					<input type="email" id="emailid" placeholder="fulano@mail.com" required="required">
+					
+					<p>
+						<textarea placeholder="mensagem" required="required"></textarea>
+					</p><br>
+					
+					<button type="submit" form="meu_form">Enviar</button>
+				</form>
+				
+				
+				<!--Informações de outros contatos da empresa para o cliente se comunicar-->
+				<div id="conta-data"> 
+					<h3>Code - Desenvolvimento de sites</h3> 
+					<h4><img src="img\icoadress.png" alt="endereço"><br>Avenida Novos Conhecimentos nº 2020</h4> 
+					<h4><img src="img\icoTelefone.png" alt="telefone"><br>+ 55 11 9999-9999</h4> 
+					<h4><img src="img\icoContato.png" alt="email"><br>contato@code.com.br</h4> 
+					<h4><img src="img\icoface.png" alt="facebook"><br>facebook.com\codedev</h4> 
+					<h4><img src="img\icoinsta.png" alt="instagram"><br>@codedev</h4> 
+				</div>
+				
+			</section>
+			
+			<!--Rodape - Final da pagina-->
+			<div id="final-text">
+					<p>Desenvolvido por Camila Augusta</p>
+			</div>
+			
+		</div>
+		
+	</body> 
+</html>
