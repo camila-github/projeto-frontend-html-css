@@ -12,3 +12,5 @@ Listas. Formulario. Bordas. Imagens com ajustes. Redirecionamentos de links para
 E tambem utilizado conceitos referente a Experiencia do Usuario (UX Design), criando uma pagina de facil utilização e entendimento do usuario.
 
 Todo o texto utilizado no projeto, e a parte de contatos são ficticios, criado apenas para realização do projeto do curso.
+
+- Publicado Site: https://camila-github.github.io/projeto-frontend-html-css/index.html
