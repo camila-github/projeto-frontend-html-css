@@ -105,8 +105,7 @@ nav ul li a:hover {
 	right: 0; 
 	bottom: 0; 
 	left: 0; 
-	/*background: rgba(181, 9, 9, 0.6);*/
-	background: var(--corPadrao);
+	background: rgba(181, 9, 9, 0.6);
 	z-index: 9999;
 	-webkit-transition: opacity 400ms ease-in;
 	-moz-transition: opacity 400ms ease-in; 
