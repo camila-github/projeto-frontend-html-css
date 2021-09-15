@@ -1,0 +1,92 @@
+@media screen and (max-width: 1064px) {
+    #welcomeresponsive{
+        display: block;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #welcomeprimary{
+        display: none;
+    }   
+}
+
+@media screen and (max-width: 982px) {
+    .about .container .row{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    [data-aos-delay] {
+        transition-delay: 0 !important;
+    }
+}
+
+/***** NAVIGATION MENU *****/
+
+/*Desktop Navigation*/
+@media (max-width: 1366px) {
+    .navbar .dropdown .dropdown ul {
+        left: -90%;
+    }
+    
+    .navbar .dropdown .dropdown:hover > ul {
+        left: -100%;
+    }
+
+}
+
+/*Mobile Navigation*/
+
+@media (max-width: 991px) {
+    .mobile-nav-toggle {
+        display: block;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .navbar-mobile ul {
+        display: block;
+    }  
+}
+
+/**** BACKGROUND SECTION *****/
+@media (min-width: 1024px) {
+    #background {
+        background-attachment: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    #background {
+        height: 100vh;
+    }
+
+    #background h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    #background h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    #background .background-container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-height: 580px) {
+    #background {
+        height: 120vh;
+    }
+
+    section {
+        padding-bottom: 10px
+    }
+}

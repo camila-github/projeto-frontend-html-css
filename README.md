@@ -11,10 +11,9 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
 
 ## Ferramentas utilizadas
 
-- Utilizado os recursos de FrontEnd
-  * HTML5
-  * CSS3
-  * UX Design
+- HTML5
+- CSS3
+- UX Design
 
 ## Conceitos utilizados
 
@@ -28,6 +27,73 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
 - Aplicado conceitos referente a Experiencia do Usuario (UX Design), criando uma pagina de facil utilização e entendimento do usuario.
 - Todo o texto utilizado no projeto, e a parte de contatos são ficticios, criado apenas para realização do projeto do curso.
 
+## Update
+
+15-09-2021
+- Alterado layout do site, criado novas paginas
+- Aplicado Flexbox e grid
+- Utilizado DOM JS (Document Object Model)
+- Utilizado Seletores CSS
+
+  [https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors)
+
+  [https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
+
+- Bootstrap 5 
+  
+  [https://getbootstrap.com/](https://getbootstrap.com/)
+
+- Utilizado Bibliote de icones
+
+  Bootstrap-icons - [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
+
+  Boxicons - [https://boxicons.com/](https://boxicons.com/)
+
+  Iconscount - [https://iconscout.com/](https://iconscout.com/)
+
+- Biblioteca AOS CSS - Biblioteca de animação. Aplicado nos elementos conforme eles rolam na tela.
+
+  [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
+
+- Biblioteca Swiper - Utilizado para criar carrosséis ou slides 
+
+  [https://swiperjs.com/](https://swiperjs.com/)
+
+
+
 ## Site Publicado no link abaixo  
 
-- [https://camila-github.github.io/projeto-frontend-html-css/index.html](https://camila-github.github.io/projeto-frontend-html-css/index.html)
+- []()
+
+## Vídeo de demonstração do aplicativo
+
+- Pagina Home
+
+<p align="center">
+   <img src=""/>
+</p>
+
+- Pagina Sobre nós
+
+<p align="center">
+   <img src=""/>
+</p>
+
+- Pagina Equipe
+
+<p align="center">
+   <img src=""/>
+</p>
+
+- Pagina Projeto
+
+<p align="center">
+   <img src=""/>
+</p>
+
+
+- Pagina Detalhes do Projeto
+
+<p align="center">
+   <img src=""/>
+</p>

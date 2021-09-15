@@ -1,93 +1,306 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Code - Desenvolvimento de Site</title>
-		<link rel=stylesheet type="text/css" href="css/folhadeestilo.css">
-	</head>
-	
-	<body>
-		<div class="container-principal">
-			<!--Cabeçalho - Topo-->
-			<header>	
-				<!--Logo-->
-				<div class="logo">
-					<a href="index.html"><img src="img/logo.png" alt="logo site"></a>
-				</div>
-				<!--Menu-->
-				<nav> 
-					<ul> 
-						<li><a href="index.html">home</a></li>
-						<li><a href="clientes.html">clientes</a></li> 
-						<li><a href="sobre.html">sobre</a></li> 
-						<li><a href="contato.html">contato</a></li> 
-					</ul> 
-				</nav>										
-			</header>		
-			<!--ImagemPrincipal-->
-			<div id="banner">			
-					<img src="img/banner.jpg" alt="banner-topo">
-			</div>
-			<!--Pop-Ups,estarão ocultos quando o site principal abrir-->
-			<div id="openModal" class="modalDialog">
-				<div>
-					<a href="#close" title="Close" class="close">X</a>
-					<h1>Tudo Sobre HTML</h1>
-					<p><strong>HTML</strong><i> (abreviação para a expressão inglesa HyperText Markup Language, que significa 
-					Linguagem de Marcação de Hipertexto)</i> é uma linguagem de marcação utilizada na construção de páginas na Web. 
-					Documentos HTML podem ser interpretados por navegadores. - <i>wikipedia.org - acesso 09/2016</i></p>
-					<img src="img/html5.png" alt="logo html5">
-				</div>
-			</div>
-			
-			<div id="openModal1" class="modalDialog">
-				<div>
-					<a href="#close" title="Close" class="close">X</a>
-					<h1>Tecnologia - Realidade Aumentada</h1>
-					<p>De uma forma simples, <b>Realidade Aumentada</b> é uma tecnologia que permite que o mundo virtual
-					seja misturada ao real, possibilitando maior interação e abrindo uma nova dimensão na maneira como
-					nós executamos tarefas.</p>
-				</div>
-			</div>
-			
-			<div id="openModal2" class="modalDialog">
-				<div>
-					<a href="#close" title="Close" class="close">X</a>
-					<h1>Acessibilidade</h1>
-					<p><b>Acessibilidade</b> na web significa que as pessoas com deficiência podem usar a web. 
-					Mais especificamente, a acessibilidae na web significa que as pessoas com deficiencia podem perceber, 
-					entender, navegar, interagir e contribuir para a web.</p>
-				</div>
-			</div>
-			
-			<!--Rodape da pagina. Será usado para ativar os Pop-Ups que estão ocultos-->
-			<footer>
-				<div class="footer-text">
-					<h3>Tudo Sobre Html</h3>
-					<p>Saiba o que é HTML, e como sua empresa pode usufruir de sites dinâmicos e funcionais - 
-						<a href="#openModal">clique aqui</a>.
-					</p>
-				</div>
-				
-				<div class="footer-text"> 
-					<h3>Tecnologia</h3>
-					<p>Você sabe o que é realidade aumentada? Entenda essa nova tecnologia. - 
-						<a href="#openModal1">clique aqui</a>.
-					</p>
-				</div>
-				
-				<div class="footer-text"> 
-					<h3>Acessibilidade</h3>		
-					<p>Torne seu site acessivel utilizando 5 dicas indispensaveis para qualquer site. - 
-						<a href="#openModal2">clique aqui</a>.
-					</p>
-				</div>
-				
-				<!--Rodape - Final da pagina-->
-				<div id="final-text">
-					<p>Desenvolvido por Camila Augusta</p>
-				</div>
-			</footer>
-		</div>
-	</body>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Code Lorem Ipsum - Index</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <!--Link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!--Local-->
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+  
+</head>
+
+<body>
+
+  <!--START - HEADER-->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+    <!--START - LOGO-->
+    <div class="logo">
+      <h1 class="text-light">
+        <a href="index.html">
+          <img src="assets/img/logo.png" alt="logo">
+        </a>
+      </h1>
+    </div><!--END - LOGO-->
+
+      <!--START - NAVBAR-->
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="active" href="index.html">Home</a></li>
+          <li class="dropdown">
+            <a href="#">
+              <span>Sobre</span> 
+              <i class="bi bi-chevron-down"></i>
+            </a>
+            <ul>
+              <li><a href="about.html">Sobre nós</a></li>
+              <li><a href="team.html">Equipe</a></li>
+              <li class="dropdown">
+                <a href="#">
+                  <span>História</span> 
+                  <i class="bi bi-chevron-right"></i>
+                </a>
+                <ul>
+                  <li><a href="#">Item1</a></li>
+                  <li><a href="#">Item2</a></li>
+                  <li><a href="#">Item3</a></li>
+                  <li><a href="#">Item4</a></li>
+                  <li><a href="#">Item5</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="services.html">Serviços</a></li>         
+          <li><a href="projects.html">Projetos</a></li>   
+          <li><a href="contact.html">Contato</a></li>        
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!--FIM - NAVBAR-->
+
+    </div>
+  </header><!--END - HEADER-->
+
+  <!--START -SECTION - BACKGROUND-->
+  <section id="background">
+    <div class="background-container" data-aos="fade-up">
+      <img id="welcomeprimary" src="assets/img/welcome.png" alt="welcome">
+      <img id="welcomeresponsive" src="assets/img/welcomeresponsive.png" alt="welcome2">
+      <h2>Somos uma equipe de designers talentosos e inovador</h2>
+      <a href="#about" class="btn-get-started scrollto">Iniciar</a>
+    </div>
+  </section><!--END -SECTION - BACKGROUND-->
+
+  <!--START - MAIN-->
+  <main id="main">
+
+    <!--START - SECTION - ABOUT-->
+    <section id="about" class="about">
+
+      <div class="container">
+        <div class="row justify-content-around">
+          <div class="col-lg-11">
+            <div class="row justify-content-around">
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box py-5">
+                  <i class="bi bi-emoji-laughing"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="75" class="purecounter">0</span>
+                  <p>Clientes felizes</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box py-5">
+                  <i class="bi bi-journal-code"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="103" class="purecounter">0</span>
+                  <p>Projetos</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                <div class="count-box pb-5 pt-0 pt-lg-5">
+                  <i class="bi bi-clock-history"></i>
+                  <span data-purecounter-start="0" data-purecounter-end="14" class="purecounter">0</span>
+                  <p>Anos de Experiência</p>
+                </div>
+              </div>             
+            </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section> <!--END - SECTION - ABOUT-->
+
+    <!--START - SECTION - CTA-->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="fade-in">
+
+        <div class="text-center">
+          <h3>Entre em contato</h3>
+          <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            when an unknown printer took a galley of type and scrambled it to make a type 
+            specimen book.
+          </p>
+          <a class="cta-btn" href="contact.html">Nos acione</a>
+        </div>
+
+      </div>
+    </section><!--END - SECTION - CTA-->
+
+    <!--START - SECTION - SERVICES-->
+    <section id="services" class="services ">
+      <div class="container">
+
+        <div class="section-title pt-5" data-aos="fade-up">
+          <h2>Nossos serviços</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-archive-fill"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="icon-box" data-aos="fade-up">
+              <div class="icon"><i class="bi bi-bookmark-check-fill"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">It has roots in a piece of classical Latin literature from 45 BC, 
+                making it over 2000 years old.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">It is a long established fact that a reader will be distracted by 
+                the readable content of a page when looking at its layout.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-briefcase-fill"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt mollit anim id est laborum
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-calendar-check-fill"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">There are many variations of passages of Lorem Ipsum available,
+                but have suffered alteration in some form.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-clock-fill"></i></div>
+              <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+              <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!--START - SECTION - SERVICES-->
+
+  </main><!--END - MAIN-->
+
+  <!--START - FOOTER-->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="assets/img/logo-2.png" alt="logo-2">
+            
+          
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+              when an unknown printer took a galley of type and scrambled it to make a type 
+              specimen book. 
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Links Úteis</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="about.html">Sobre nós</a></li>
+              <li><a href="services.html">Serviços</a></li>
+              <li><a href="#">Termos de serviço</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Entre em contato conosco</h4>
+            <p>
+              <strong>Endreço:</strong> Rua Lorem Ipsum <br>
+              São Paulo, 456378, Brasil <br>
+              <strong>Telefone:</strong> 55 11 1234 5678<br>
+              <strong>Email:</strong> loremipsum@email.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Nossa Newsletter</h4>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. 
+              It has roots in a piece of classical Latin literature from 45 BC, 
+              making it over 2000 years old. Richard McClintock, a Latin professor 
+              at Hampden-Sydney College in Virginia, looked up one of the more obscure 
+              Latin words, consectetur.
+            </p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Inscreva-se">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </footer><!--END - FOOTER-->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Vendor JS Files -->
+  <!--Link-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <!--Local-->
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>  
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
