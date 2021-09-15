@@ -39,8 +39,7 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
 
   [https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048](https://code.tutsplus.com/pt/tutorials/the-30-css-selectors-you-must-memorize--net-16048)
 
-- Bootstrap 5   
-  [https://getbootstrap.com/](https://getbootstrap.com/)
+- Bootstrap 5 - [https://getbootstrap.com/](https://getbootstrap.com/)
 
 - Utilizado Biblioteca de icones
 
@@ -50,14 +49,11 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
 
   Iconscount - [https://iconscout.com/](https://iconscout.com/)
 
-- Biblioteca AOS CSS - Biblioteca de animação. Aplicado nos elementos conforme eles rolam na tela.
-  [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
+- Biblioteca AOS CSS - Biblioteca de animação. Aplicado nos elementos conforme eles rolam na tela. - [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
 
-- Biblioteca Swiper - Utilizado para criar carrosséis ou slides 
-  [https://swiperjs.com/](https://swiperjs.com/)
-  
-- Imagens retiradas do site 
-  [https://www.pexels.com/pt-br/](https://www.pexels.com/pt-br/)
+- Biblioteca Swiper - Utilizado para criar carrosséis ou slides - [https://swiperjs.com/](https://swiperjs.com/)
+
+- Imagens retiradas do site - [https://www.pexels.com/pt-br/](https://www.pexels.com/pt-br/)
 
 
 
