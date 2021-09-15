@@ -43,7 +43,7 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
   
   [https://getbootstrap.com/](https://getbootstrap.com/)
 
-- Utilizado Bibliote de icones
+- Utilizado Biblioteca de icones
 
   Bootstrap-icons - [https://icons.getbootstrap.com/](https://icons.getbootstrap.com/)
 
