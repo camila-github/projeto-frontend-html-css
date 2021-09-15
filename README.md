@@ -91,5 +91,5 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
 - Pagina Detalhes do Projeto
 
 <p align="center">
-   <img src="https://github.com/camila-github/projeto-frontend-html-css/blob/master/docs/pagina-projetos-detalhes.gif"/>
+   <img src="https://github.com/camila-github/projeto-frontend-html-css/blob/master/docs/pagina-projetos-detalhes-.gif"/>
 </p>
