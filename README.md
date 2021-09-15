@@ -56,8 +56,10 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
   [https://michalsnik.github.io/aos/](https://michalsnik.github.io/aos/)
 
 - Biblioteca Swiper - Utilizado para criar carrosséis ou slides 
-
   [https://swiperjs.com/](https://swiperjs.com/)
+  
+- Imagens retiradas do site 
+  [https://www.pexels.com/pt-br/](https://www.pexels.com/pt-br/)
 
 
 
