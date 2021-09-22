@@ -69,12 +69,6 @@ e tambem complementando o projeto com o curso de UX Design realizado na Digital 
    <img src="https://github.com/camila-github/projeto-frontend-html-css/blob/master/docs/pagina-home.gif"/>
 </p>
 
-- Pagina Sobre nós
-
-<p align="center">
-   <img src="https://github.com/camila-github/projeto-frontend-html-css/blob/master/docs/pagina-sobre.gif"/>
-</p>
-
 - Pagina Equipe
 
 <p align="center">
